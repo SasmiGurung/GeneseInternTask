@@ -1,0 +1,168 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #EAF1F1;
+        }
+        #h1 {
+            margin-left: 70px;
+
+        }
+
+        .navbar {
+            margin-left: 70px;
+            width: 100%;
+            overflow: auto;
+        }
+        .navbar a {
+            width: 6%;
+            float: left;
+            padding: 12px;
+            color: black;
+            font-weight: 700;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        #nav-right {
+            margin-top: -80px;
+            margin-right: 70px;
+            float: right;
+        }
+
+        #nav-right a {
+            font-weight: 600;
+            padding: 12px;
+            color: black;
+            text-decoration: none;
+            font-size: 12px;
+        }
+
+        @media screen and (max-width: 500px) {
+            .navbar a {
+                float: none;
+                display: block;
+            }
+        }
+
+        .p1 {
+            margin-bottom: 10px;
+            margin-left: 70px;
+            font-size: 52px;
+            font-weight: normal;
+        }
+
+        .p2 {
+            padding-bottom: 10px;
+            margin-left: 70px;
+            font-size: 22px;
+            font-weight: 200;
+        }
+
+        .p3 {
+            color: #EAF1F1;
+            text-align: center;
+            margin-left: 70px;
+            font-size: 48px;
+            font-weight: bold;
+        }
+
+        .p4 {
+            margin-top: -30px;
+            color: #E5E5E5;
+            text-align: center;
+            padding-bottom: 30px;
+            margin-left: 70px;
+            font-size: 22px;
+            font-weight: 200;
+        }
+
+        .div-fot {
+            height: 300px;
+            margin-top: 50px;
+            padding: 5px;
+            background-color: #3F4C60;
+        }
+
+        .sign-button {
+            padding: 6px;
+            background-color: #FA0404;
+            border-color: #FA0404;
+            color: #EAF1F1;
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        .button-button1 {
+            background-color: #FA0404;
+            border-color: #FA0404;
+            color: #EAF1F1;
+            margin-left: 70px;
+            font-size: 16px;
+            padding: 15px 32px;;
+        }
+
+        .image {
+            margin-right: 70px;
+            float: right;
+            margin-top: -425px;
+        }
+
+    </style>
+
+    <meta charset="UTF-8">
+    <title>Genese Internship</title>
+</head>
+
+
+
+<body>
+<div>
+    <h1 id="h1">Genese.Task</h1>
+</div>
+<div class="navbar">
+    <a href="#home"><i class="angle-down"></i>Home</a>
+    <a href="#about"><i class="angle-down"></i>About</a>
+    <a href="#templates"><i class="angle-down"></i>Templates</a>
+    <a href="#products"><i class="angle-down"></i>Products</a>
+
+</div>
+<div id="nav-right">
+    <a href="#contactus"></i>CONTACT US</a>
+    <a href="#mail">MAIL</a>
+    <a href="#login">LOG IN</a>
+    <button class="sign-button">SIGN IN</button>
+</div>
+
+<div>
+    <p class="p1">Genese Internship <br> Task to host the <br> website. </p>
+</div>
+
+<div>
+    <p class="p2">The beginning is the most important <br> part of the work on your websites. <br> A website’s success depends on the <br> reliability of their hosting service.</p>
+</div>
+
+<div class="image">
+    <img src="{% static 'images/pic-server.jpg' %}" alt="" width="1000" height="500">
+</div>
+
+
+<div>
+    <button class="button-button1">CREATE MY FREE WEBSITE</button>
+</div>
+
+<div class="div-fot">
+<div>
+    <p class="p3">Deployig your own website.</p>
+</div>
+
+<div>
+    <p class="p4">The secret of getting ahead is getting started.</p>
+</div>
+    </div>
+
+</body>
+</html>
