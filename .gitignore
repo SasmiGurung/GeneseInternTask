@@ -3,3 +3,4 @@
 
 # ignore django files
 geneseapp/db.sqlite3
+geneseapp/__pycache__/*
