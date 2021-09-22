@@ -1,0 +1,5 @@
+# ignore ide files
+.idea/*
+
+# ignore django files
+geneseapp/db.sqlite3
